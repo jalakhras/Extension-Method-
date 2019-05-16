@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sixeyed.Extensions.Sampels", "Sixeyed.Extensions\Sixeyed.Extensions.Sampels.csproj", "{A826D98D-9655-4296-93E1-4BD0E58E451F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{ACA923FD-5546-4C33-BBCF-A942C1326B32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sixeyed.Extensions.Tests", "Sixeyed.Extensions.Tests\Sixeyed.Extensions.Tests.csproj", "{F93879CA-6F5C-4B5F-AF4D-D531ED808B25}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{A826D98D-9655-4296-93E1-4BD0E58E451F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A826D98D-9655-4296-93E1-4BD0E58E451F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A826D98D-9655-4296-93E1-4BD0E58E451F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F93879CA-6F5C-4B5F-AF4D-D531ED808B25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F93879CA-6F5C-4B5F-AF4D-D531ED808B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F93879CA-6F5C-4B5F-AF4D-D531ED808B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F93879CA-6F5C-4B5F-AF4D-D531ED808B25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F93879CA-6F5C-4B5F-AF4D-D531ED808B25} = {ACA923FD-5546-4C33-BBCF-A942C1326B32}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5DCC4A28-AEFA-4487-868D-BE7147EBA25D}
