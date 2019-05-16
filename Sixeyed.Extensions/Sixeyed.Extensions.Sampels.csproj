@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="ExtendingCollections\IReferenceDataSourceCollectionExtensions.cs" />
     <Compile Include="ExtendingEverything\ObjectExtensions.cs" />
+    <Compile Include="ExtendingEverything\TypeExtensions.cs" />
     <Compile Include="ExtendingInterfaces\Implementation\ApiReferenceDataSource.cs" />
     <Compile Include="ExtendingInterfaces\Implementation\SqlReferenceDataSource.cs" />
     <Compile Include="ExtendingInterfaces\Implementation\XmlDataSource.cs" />

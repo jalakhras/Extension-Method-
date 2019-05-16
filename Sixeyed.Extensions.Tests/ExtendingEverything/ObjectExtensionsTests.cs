@@ -30,5 +30,27 @@ namespace Sixeyed.Extensions.Tests.ExtendingEverything
             IEnumerable<IReferenceDataSource> obj4 = new List<IReferenceDataSource> { new SqlReferenceDataSource() };
             Debug.WriteLine("obj4 - " + obj4.ToJsonString());
         }
+
+        [TestMethod]
+        public void GetJsonTypeDescriptionTests()
+        {
+            var obj1 = int.MaxValue;
+            Debug.WriteLine("obj1 - " + obj1.GetJsonTypeDescription());
+
+            var obj2 = new DateTime(2000, 12, 31);
+            Debug.WriteLine("obj2 - " + obj2.GetJsonTypeDescription());
+
+            var obj3 = new ReferenceDataItem
+            {
+                Code = "xyz",
+                Description = "123"
+            };
+            Debug.WriteLine("obj3 - " + obj3.GetJsonTypeDescription());
+
+            IEnumerable<IReferenceDataSource> obj4 = new List<IReferenceDataSource> { new SqlReferenceDataSource() };
+            Debug.WriteLine("obj4 - " + obj4.GetJsonTypeDescription());
+        }
     }
+
+
 }

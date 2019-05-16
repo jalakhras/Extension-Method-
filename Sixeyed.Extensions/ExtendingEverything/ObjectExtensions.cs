@@ -8,5 +8,11 @@ namespace Sixeyed.Extensions.ExtendingEverything
         {
             return JsonConvert.SerializeObject(obj);
         }
+
+        public static string GetJsonTypeDescription(this object obj)
+        {
+            var description = obj.GetType().GetDescription();
+            return description.ToJsonString();
+        }
     }
 }
