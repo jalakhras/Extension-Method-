@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExtendingCollections\IReferenceDataSourceCollectionExtensions.cs" />
     <Compile Include="ExtendingInterfaces\Implementation\ApiReferenceDataSource.cs" />
     <Compile Include="ExtendingInterfaces\Implementation\SqlReferenceDataSource.cs" />
     <Compile Include="ExtendingInterfaces\Implementation\XmlDataSource.cs" />

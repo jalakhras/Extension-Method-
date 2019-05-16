@@ -50,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExtendingCollections\IReferenceDataSourceCollectionExtensionsTests.cs" />
     <Compile Include="ExtendingInterfaces\ReferenceDataSourceTests.cs" />
     <Compile Include="LegacyExtensions\LegacyExtensionsTest.cs" />
     <Compile Include="PiggybackingForXmlDateTime\DateTimeExtensionsTest.cs" />
