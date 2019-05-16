@@ -41,6 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExtendingInterfaces\Implementation\ApiReferenceDataSource.cs" />
+    <Compile Include="ExtendingInterfaces\Implementation\SqlReferenceDataSource.cs" />
+    <Compile Include="ExtendingInterfaces\Implementation\XmlDataSource.cs" />
+    <Compile Include="ExtendingInterfaces\IReferenceDataSource.cs" />
+    <Compile Include="ExtendingInterfaces\IReferenceDataSourceExtensions.cs" />
+    <Compile Include="ExtendingInterfaces\ReferenceDataItem.cs" />
     <Compile Include="LegacyExtensions\LegacyExtensions.cs" />
     <Compile Include="PiggybackingForXmlDateTime\DateTimeExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

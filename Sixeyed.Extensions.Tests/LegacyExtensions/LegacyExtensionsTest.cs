@@ -1,15 +1,11 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Sixeyed.Extensions.LegacyExtensions;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Sixeyed.Extensions.Tests.LegacyExtensions
 {
     [TestClass]
-   public class LegacyExtensionsTest
+    public class LegacyExtensionsTest
     {
         [TestMethod]
         //C=>a century
