@@ -31,6 +31,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Json.Net, Version=1.0.16.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Json.Net.1.0.16\lib\netstandard2.0\Json.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -42,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ExtendingCollections\IReferenceDataSourceCollectionExtensions.cs" />
+    <Compile Include="ExtendingEverything\ObjectExtensions.cs" />
     <Compile Include="ExtendingInterfaces\Implementation\ApiReferenceDataSource.cs" />
     <Compile Include="ExtendingInterfaces\Implementation\SqlReferenceDataSource.cs" />
     <Compile Include="ExtendingInterfaces\Implementation\XmlDataSource.cs" />
@@ -51,6 +58,9 @@
     <Compile Include="LegacyExtensions\LegacyExtensions.cs" />
     <Compile Include="PiggybackingForXmlDateTime\DateTimeExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
